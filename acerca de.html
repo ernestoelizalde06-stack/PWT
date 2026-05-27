@@ -1,31 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>LeChat</title>
-    <link rel="stylesheet" href="CSS/bootstrap.min.CSS">
-    <link rel="stylesheet" href="CSS/style.css">
-    <script src="js/bootstrap.min.js"></script>
 
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.min.css">
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.min.css"  >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
 </head>
-<body>
-   <nav class="navbar" style="background-color: #001a4d;" data-bs-theme="dark">
-    
-    <nav class="navbar navbar-expand-lg" style="background-color: #001a4d;">
-        
-        <div class="container-fluid">
-            <a  class="navbar-brand" href="index.html"><img src="IMG/logo2.png" alt="Bootstrap" width="60"></a>
-            <a class="navbar-brand text-white" href="index.html">Inicio</a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #001a4d;">
+
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo2.png" alt="Logo" width="60">
+            </a>
+
+            <a class="navbar-brand text-white" href="index.html">
+                Inicio
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent"
                 aria-expanded="false"
@@ -40,158 +58,267 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                     <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="catalogo.html">
-                            catalogo
+                        <a class="nav-link active text-white" href="catalogo.html">
+                            Catálogo
                         </a>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link text-white" href="servicios.html">
-                            servicios
+                            Servicios
                         </a>
                     </li>
 
-                   <li class="nav-item">
-                        <a class="nav-link text-white" href="acerca de.html">
-                            acerca de nosotros 
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="acerca-de.html">
+                            Acerca de nosotros
                         </a>
                     </li>
 
                 </ul>
 
             </div>
+
         </div>
 
     </nav>
 
-</nav>
+    <!-- TITULO -->
 
-<br>
+    <div class="container-fluid mt-5 mb-4 text-center">
 
-<div class="container-fluid mt-4 mb-4" >
-    <div class="row">
-        <div>
-            <center><h1 class="fuente titulo-subrayado"> Nuestros servicios </h1>
-            <center><p class="fuente3">Tenemos una gran variedad de servicios, si te interesa alguno solo llamanos!</p>
-        </div>
+        <h1 class="fuente titulo-subrayado">
+            Nuestros servicios
+        </h1>
+
+        <p class="fuente3">
+            Tenemos una gran variedad de servicios, si te interesa alguno solo llámanos.
+        </p>
+
     </div>
 
-</div>
+    <hr style="border: none; border-top: 5px solid #001a4d;">
 
-<hr style="border: none; border-top: 5px solid #001a4d; height: 0;">
- 
-<br>
+    <!-- UBICACION -->
 
-<div class="container mb-4" >
-    <div class="row">
-       
-    <div class="col-12 col-md-6 col-lg-6 mb-4 row d-flex flex-column justify-content-center align-items-center">
-        <div>
-            <div class="card-body">
-                <img src="IMG/ubicacion.png" alt="" width="60px">
-                <h5 class="card-title fuente mt-3">Direccion de nuestra sucursal</h5>
-                <p class="card-text fuente3">Aquí recibes una atención mas especializada en lo que buscas y de que lo encuentras lo encuentras.</p>
+    <div class="container my-5">
+
+        <div class="row align-items-center">
+
+            <div class="col-12 col-md-6 text-center mb-4">
+
+                <img src="img/ubicacion.png" alt="Ubicación" width="60">
+
+                <h2 class="fuente mt-3">
+                    Dirección de nuestra sucursal
+                </h2>
+
+                <p class="fuente3">
+                    Aquí recibes una atención más especializada en lo que buscas y de que lo encuentras, lo encuentras.
+                </p>
 
             </div>
-        </div>
-    </div>
 
-     <div class="col-6">
+            <div class="col-12 col-md-6 text-center">
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.828198304665!2d-99.10547188912999!3d19.41982764101292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fea70c811061%3A0x1f2f4cfa21b4e1ea!2sCecilio%20Robelo%20533%2C%20Jard%C3%ADn%20Balbuena%2C%20Venustiano%20Carranza%2C%2015900%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses!2smx!4v1779614679418!5m2!1ses!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-  </div>
-    </div><br><br>
-<hr style="border: none; border-top: 5px solid #001a4d; height: 0;">
-<div class="row">
-    
-    <div class="col-14 col-md-7 col-lg-4 text-center">
-
-        <center><h2 class="fuente">Horario</h2></center>
-        <div class="card mt-4" >
-  <img src="IMG/calendario.png" class="img-fluid w-25 mx-auto" alt="...">
-  <div class="card-body">
-    <p class="card-text fuente3"><center><p class="fuente3">Estamos de lunes a sabado de 10 am a 6 pm, los días festivos nos damos un descanso pero con una cita agendada hacemos excepciones.</p></center></p>
-  </div>
-</div>
-        
-    </div>
-
-    <div class="col-14 col-md-7 col-lg-4 text-center">
-
-        <center><h2 class="fuente">Garantía</h2></center>
-        <div class="card mt-4" >
-  <img src="IMG/garantia.png" class="img-fluid w-25 mx-auto" alt="...">
-  <div class="card-body">
-    <p class="card-text"><center><p class="fuente3">Si tu mueble no quedo como esperabas o presenta problemas, te lo reparamos gratis</p></center></p>
-  </div>
-</div>
-        
-    </div>
-
-    <div class="col-14 col-md-7 col-lg-4 text-center">
-
-        <center><h2 class="fuente">Tiempo de espera</h2></center>
-        <div class="card mt-4" >
-  <img src="IMG/reloj-de-pared.png" class="img-fluid w-25 mx-auto" alt="...">
-  <div class="card-body">
-    <p class="card-text"><center><p class="fuente3">Te entregamos tus muebles en un lapso de 1-2 semanas. Podemos hacer trabajos que necesiten urgencia, solo tienen un costo extra. </p></center></p>
-  </div>
-</div>
-        
-    </div>
-
-</div>
-
-       
-
-<hr style="border: none; border-top: 5px solid #001a4d; height: 0;">
-<br>
-<br>
-
-<div class="container mb-4" >
-    <div class="row">
-       
-    <div class="col-12 col-md-6 col-lg-6 mb-4 row d-flex flex-column justify-content-center align-items-center">
-        <div>
-            <div class="card-body">
-                <img src="IMG/atencion-al-cliente.png" alt="" width="60px">
-                <br><br>
-                <h2 class="card-title fuente titulo-subrayado mt-3">Contáctanos</h2><br>
-                <p class="card-text fuente3">Te daremos la mejor de las atenciones, agenda tu cita si es que quieres una inspeccion de tus muebles o que días puedes traerlos a nuestra sucursal para poder repararlos o diseñarlos.</A></p><br>
-                <h5 class="card-title fuente mt-3">Nuestro correo electronico:</h5><br>
-                <p class="card-text fuente3">Lechattapiceria@gmail.com</p>
-                <h5 class="card-title fuente mt-3">Nuestro numero de telefono:</h5><br>
-                <p class="card-text fuente3">55 7194 2306</p>
-               
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.828198304665!2d-99.10547188912999!3d19.41982764101292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fea70c811061%3A0x1f2f4cfa21b4e1ea!2sCecilio%20Robelo%20533%2C%20Jard%C3%ADn%20Balbuena%2C%20Venustiano%20Carranza%2C%2015900%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses!2smx!4v1779614679418!5m2!1ses!2smx"
+                    width="100%"
+                    height="300"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
 
             </div>
+
         </div>
+
     </div>
 
+    <hr style="border: none; border-top: 5px solid #001a4d;">
 
-  </div>
+    <!-- TARJETAS -->
+
+    <div class="container my-5">
+
+        <div class="row g-4">
+
+            <!-- HORARIO -->
+
+            <div class="col-12 col-md-6 col-lg-4 text-center">
+
+                <h2 class="fuente">
+                    Horario
+                </h2>
+
+                <div class="card mt-4 h-100">
+
+                    <img src="img/calendario.png"
+                        class="img-fluid w-25 mx-auto mt-4"
+                        alt="Horario">
+
+                    <div class="card-body">
+
+                        <p class="fuente3">
+                            Estamos de lunes a sábado de 10 am a 6 pm.
+                            Los días festivos nos damos un descanso,
+                            pero con una cita agendada hacemos excepciones.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- GARANTIA -->
+
+            <div class="col-12 col-md-6 col-lg-4 text-center">
+
+                <h2 class="fuente">
+                    Garantía
+                </h2>
+
+                <div class="card mt-4 h-100">
+
+                    <img src="img/garantia.png"
+                        class="img-fluid w-25 mx-auto mt-4"
+                        alt="Garantía">
+
+                    <div class="card-body">
+
+                        <p class="fuente3">
+                            Si tu mueble no quedó como esperabas o presenta problemas,
+                            te lo reparamos gratis.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- TIEMPO -->
+
+            <div class="col-12 col-md-6 col-lg-4 text-center">
+
+                <h2 class="fuente">
+                    Tiempo de espera
+                </h2>
+
+                <div class="card mt-4 h-100">
+
+                    <img src="img/reloj-de-pared.png"
+                        class="img-fluid w-25 mx-auto mt-4"
+                        alt="Tiempo">
+
+                    <div class="card-body">
+
+                        <p class="fuente3">
+                            Te entregamos tus muebles en un lapso de 1 a 2 semanas.
+                            También podemos realizar trabajos urgentes con costo extra.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
 
+    <hr style="border: none; border-top: 5px solid #001a4d;">
 
- <!-- FOOTER -->
+    <!-- CONTACTO -->
 
-<footer class="bg-dark text-white text-center py-4">
-  <div class="container">
-    <p class="mb-2">Síguenos en nuestras redes sociales:</p>
-   
-    <div class="d-flex justify-content-center gap-3">
-      <a href="https://www.facebook.com/LeChatMuebles?mibextid=rS40aB7S9Ucbxw6v" target="_blank" class="text-white fs-4">
-        <i class="bi bi-facebook"></i>
-      </a>
-      <a href="https://wa.me/5571942306" target="_blank" class="text-white fs-4">
-        <i class="bi bi-whatsapp"></i>
-      </a>
+    <div class="container my-5">
+
+        <div class="row justify-content-center">
+
+            <div class="col-12 col-md-8 text-center">
+
+                <img src="img/atencion-al-cliente.png"
+                    alt="Atención al cliente"
+                    width="60">
+
+                <h2 class="fuente titulo-subrayado mt-4">
+                    Contáctanos
+                </h2>
+
+                <p class="fuente3 mt-4">
+                    Te daremos la mejor de las atenciones.
+                    Agenda tu cita si quieres una inspección de tus muebles
+                    o deseas saber qué días puedes traerlos a nuestra sucursal.
+                </p>
+
+                <h4 class="fuente mt-4">
+                    Nuestro correo electrónico:
+                </h4>
+
+                <p class="fuente3">
+                    lechattapiceria@gmail.com
+                </p>
+
+                <h4 class="fuente mt-4">
+                    Nuestro número de teléfono:
+                </h4>
+
+                <p class="fuente3">
+                    55 7194 2306
+                </p>
+
+            </div>
+
+        </div>
+
     </div>
 
-    <p class="mt-3 mb-0">&copy; 2025 Tu Empresa. Todos los derechos reservados.</p>
-  </div>
-</footer>
+    <!-- FOOTER -->
+
+    <footer class="bg-dark text-white text-center py-4">
+
+        <div class="container">
+
+            <p class="mb-3">
+                Síguenos en nuestras redes sociales:
+            </p>
+
+            <div class="d-flex justify-content-center gap-4">
+
+                <a href="https://www.facebook.com/LeChatMuebles?mibextid=rS40aB7S9Ucbxw6v"
+                    target="_blank"
+                    class="text-white fs-3">
+
+                    <i class="bi bi-facebook"></i>
+
+                </a>
+
+                <a href="https://wa.me/5571942306"
+                    target="_blank"
+                    class="text-white fs-3">
+
+                    <i class="bi bi-whatsapp"></i>
+
+                </a>
+
+            </div>
+
+            <p class="mt-4 mb-0">
+                &copy; 2025 LeChat. Todos los derechos reservados.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- Bootstrap JS -->
+
+    <script src="js/bootstrap.min.js"></script>
 
 </body>
+
 </html>
