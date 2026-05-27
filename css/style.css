@@ -1,0 +1,87 @@
+/* FUENTE KUNAROH */
+
+@font-face {
+    font-family: 'kunaroh';
+    src: url('../fonts/Kunaroh.ttf');
+}
+
+.fuente {
+    font-family: 'kunaroh';
+}
+
+/* FUENTE LOUIS GEORGE */
+
+@font-face {
+    font-family: 'cafej';
+    src: url('../fonts/LouisGeorgeCafeBoldItalic.ttf');
+}
+
+.fuente2 {
+    font-family: 'cafej';
+}
+
+/* FUENTE CREATO */
+
+@font-face {
+    font-family: 'creato';
+    src: url('../fonts/CreatoDisplay-Bold.otf');
+}
+
+.fuente3 {
+    font-family: 'creato';
+}
+
+/* FUENTE BEBAS */
+
+@font-face {
+    font-family: 'creato2';
+    src: url('../fonts/BebasNeue-Regular.ttf');
+}
+
+.fuente4 {
+    font-family: 'creato2';
+}
+
+/* TITULOS */
+
+.titulo-subrayado {
+    text-decoration: underline;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background-color: #001a4d;
+}
+
+.nav-link,
+.navbar-brand {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 22px;
+    color: white !important;
+    letter-spacing: 1px;
+}
+
+/* EFECTO HOVER */
+
+.nav-link:hover {
+    color: #ffd700 !important;
+    transition: 0.3s;
+}
+
+/* TARJETAS */
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+}
+
+/* FOOTER */
+
+footer a {
+    transition: 0.3s;
+}
+
+footer a:hover {
+    transform: scale(1.2);
+}
